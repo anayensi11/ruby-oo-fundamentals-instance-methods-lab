@@ -4,7 +4,9 @@ class Person
     end
 end
 
-Person.talk
+ada = Person.new
+
+ada.talk
 
 class Person
     def walk
@@ -12,4 +14,4 @@ class Person
     end
 end
 
-Person.walk
+ada.walk
